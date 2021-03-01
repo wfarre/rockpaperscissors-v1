@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="style.css">
+
+
+  <!-- FONT Family -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+
+  <!-- Score
+  Rules
+
+  You Picked
+  The House Picked
+
+  You Win
+  You Lose
+
+  Play Again -->
+
+</head>
+
+<body>
+
+
+
+  <section id="heading">
+
+    <div class="grid-container-title">
+      <div class="gird-item title">
+        <img src="images/logo.svg" alt="">
+      </div>
+      <div class="grid-item score">
+        <h3 class="scoretitle">score</h3>
+          <p class="scoreresult">0</p>
+      </div>
+    </div>
+
+
+
+  </section>
+
+  <section id="game">
+
+<div class="grid-container-game">
+    <div class="grid-item-paper box-paper">
+      <img class="icon paper" src="images/icon-paper.svg" alt="">
+
+    </div>
+    <div class="grid-item-rock box-rock">
+      <img class="icon rock" src="images/icon-rock.svg" value="Rock">
+
+    </div>
+    <div class="grid-item-scissors box-scissors">
+      <img class="icon scissors" src="images/icon-scissors.svg" alt="">
+
+    </div>
+    </div>
+
+
+    <div class="grid-container-results">
+      <div class="grid-item playerCard">
+        <h3 class="picktitle">YOU PICKED</h3>
+        <div class="box1">
+          <div class="box-paper2">
+            <img class="icon2" src="images/icon-paper.svg" alt="">
+          </div>
+          <div class="box-rock2">
+            <img class="icon2" src="images/icon-rock.svg" value="Rock">
+          </div>
+          <div class="box-scissors2">
+            <img class="icon2" src="images/icon-scissors.svg" alt="">
+          </div>
+
+
+        </div>
+      </div>
+      <div class="grid-item resultdiv">
+        <h2 class="results">RESULTS</h2>
+        <button class="play" type="button" name="button">PLAY AGAIN</button>
+      </div>
+      <div class="grid-item houseCard">
+        <h3 class="picktitle">THE HOUSE PICKED</h3>
+        <div class="box2">
+          <div class="box-paper2">
+            <img class="icon2" src="images/icon-paper.svg" alt="">
+          </div>
+          <div class="box-rock2">
+            <img class="icon2" src="images/icon-rock.svg" value="Rock">
+          </div>
+          <div class="box-scissors2">
+            <img class="icon2" src="images/icon-scissors.svg" alt="">
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+
+  <section id="rules">
+    <button class="rulebutton" type="button" name="button"> RULES </button>
+  </section>
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">William Farré</a>.
+  </div>
+  <div class="shadowbox">
+    <div class="rules">
+      <h2 class="ruletitle">RULES</h2>
+      <img class="rules-image" src="images/image-rules.svg" alt="">
+    </div>
+  </div>
+
+
+    <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
