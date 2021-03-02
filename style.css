@@ -278,7 +278,258 @@ body {
 
 
 /* ------------------------------------------------------------------------ */
-@media (max-width: 420px) {
+@media (max-width: 375px) {
+/* TITLE */
+  .grid-container-title {
+    padding: 1rem;
+    width: 20rem;
+    margin: 2rem auto;
+  }
+
+
+  /* GAME */
+  .grid-container-game {
+    margin: 4rem auto;
+    width: 20rem;
+  }
+
+  .box-icon{
+    padding: 14px 14px;
+    width: 5rem;
+  }
+
+  .icon {
+    background-color: #fff;
+    box-shadow: inset 0px 10px 5px hsl(217, 16%, 45%);
+    border-radius: 100%;
+    padding: 1rem;
+  }
+
+  .box-paper {
+    left: -1rem;
+    top: -3rem;
+  }
+
+  .box-rock {
+    left: 1rem;
+    top: -3rem;
+  }
+
+  .box-scissors {
+    top: 3rem;
+  }
+
+  /* RESULT  */
+  .grid-container-results {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 1rem  0rem;
+    width: auto;
+    display: display;
+    width: 20rem;
+  }
+
+  .resultdiv{
+      bottom: 0;
+      position:relative;
+    }
+
+  .results {
+    font-size: 2rem;
+    color: #fff;
+  }
+
+  .play {
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    color: hsl(229, 25%, 31%);
+    font-size: 14px;
+    padding: 10px 50px;
+    text-decoration: none;
+  }
+
+  .picktitle {
+    width: 8rem;
+    font-size: 18px;
+    margin: 2rem;
+  }
+
+  .box1, .box2 {
+    height: 8rem;
+    width: 8rem;
+    margin: 0 auto;
+  }
+
+  .iconresult {
+    padding: 2rem;
+    width: 2rem;
+  }
+
+  .box-icon2{
+    padding: 20px 20px;
+    width: 6rem;
+  }
+  /* RULE BUTTON */
+
+  #rules {
+    text-align: center;
+    padding-top: 1rem;
+  }
+
+  /* RULES */
+  .shadowbox{
+    position: absolute;
+    top:-2rem;
+    left: 0rem;
+    padding: 0;
+    width: 0rem;
+    height: 0rem;
+ }
+  .rules{
+    width: 23rem;
+    height: 45rem;
+    margin: 0;
+    border-radius: 1rem;
+
+  }
+
+  .rules-image{
+    padding-top: 8rem;
+  }
+
+
+}
+
+
+
+@media (max-width: 320px) {
+/* TITLE */
+  .grid-container-title {
+    padding: 1rem;
+    width: 20rem;
+    margin: 2rem auto;
+  }
+
+
+  /* GAME */
+  .grid-container-game {
+    margin: 4rem auto;
+    width: 20rem;
+  }
+
+  .box-icon{
+    padding: 14px 14px;
+    width: 5rem;
+  }
+
+  .icon {
+    background-color: #fff;
+    box-shadow: inset 0px 10px 5px hsl(217, 16%, 45%);
+    border-radius: 100%;
+    padding: 1rem;
+  }
+
+  .box-paper {
+    left: -1rem;
+    top: -3rem;
+  }
+
+  .box-rock {
+    left: 1rem;
+    top: -3rem;
+  }
+
+  .box-scissors {
+    top: 3rem;
+  }
+
+  /* RESULT  */
+  .grid-container-results {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 1rem  0rem;
+    width: auto;
+    display: display;
+    width: 20rem;
+  }
+
+  .resultdiv{
+      bottom: 0;
+      position:relative;
+    }
+
+  .results {
+    font-size: 2rem;
+    color: #fff;
+  }
+
+  .play {
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    color: hsl(229, 25%, 31%);
+    font-size: 14px;
+    padding: 10px 50px;
+    text-decoration: none;
+  }
+
+  .picktitle {
+    width: 8rem;
+    font-size: 18px;
+    margin: 2rem;
+  }
+
+  .box1, .box2 {
+    height: 8rem;
+    width: 8rem;
+    margin: 0 auto;
+  }
+
+  .iconresult {
+    padding: 2rem;
+    width: 2rem;
+  }
+
+  .box-icon2{
+    padding: 20px 20px;
+    width: 6rem;
+  }
+  /* RULE BUTTON */
+
+  #rules {
+    text-align: center;
+    padding-top: 1rem;
+  }
+
+  /* RULES */
+  .shadowbox{
+    position: absolute;
+    top:-2rem;
+    left: 0rem;
+    padding: 0;
+    width: 0rem;
+    height: 0rem;
+ }
+  .rules{
+    width: 23rem;
+    height: 45rem;
+    margin: 0;
+    border-radius: 1rem;
+
+  }
+
+  .rules-image{
+    padding-top: 8rem;
+  }
+
+
+}
+
+
+@media (max-width: 414px) {
 /* TITLE */
   .grid-container-title {
     padding: 1rem;
